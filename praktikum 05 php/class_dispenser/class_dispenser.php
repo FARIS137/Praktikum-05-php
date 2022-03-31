@@ -29,12 +29,14 @@ class dispenser{
   }
 
   public function Nama($jumlah){
-    $this->namaminuman = $namaminuman;
+    $this->sisauang = $this->sisauang + $uang;
   }
     public function cetak(){
       echo '<br/>Sisa Air  : '.$this->volume;
       echo ' ml';
       echo '<br/> Harga Segelas : '.$this->hargasegelas;
+      echo ' Rupiah';
+      echo '<br/> Harga Bayar: '.$this->hargasegelas*2;
       echo ' Rupiah';
       echo '<br/>isi gelas   :' .$this->volumegelas;
        echo ' ml';
