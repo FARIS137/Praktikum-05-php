@@ -28,7 +28,7 @@ class dispenser{
 
   }
 
-  public function Nama($jumlah){
+  public function Nama($uang){
     $this->sisauang = $this->sisauang + $uang;
   }
     public function cetak(){
